@@ -97,5 +97,8 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
+# nvm
+brew install nvm
+
 # Remove outdated versions from the cellar.
 brew cleanup
