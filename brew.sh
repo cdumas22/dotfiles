@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install command-line tools using Homebrew.
 
@@ -99,6 +100,20 @@ brew install zopfli
 
 # nvm
 brew install nvm
+
+# gui
+brew install --cask google-chrome 
+brew install --cask 1password
+brew install --cask bettertouchtool
+brew install --cask docker
+brew install --cask docker-toolbox
+brew install --cask plex-media-player
+brew install --cask plexamp
+brew install --cask zoom
+brew install --cask visual-studio-code
+brew install --cask microsoft-office
+brew install --cask microsoft-remote-desktop
+
 
 # Remove outdated versions from the cellar.
 brew cleanup
