@@ -113,7 +113,13 @@ brew install --cask zoom
 brew install --cask visual-studio-code
 brew install --cask microsoft-office
 brew install --cask microsoft-remote-desktop
+brew install --cask itsycal
 
+# https://github.com/sindresorhus/quick-look-plugins
+brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo
+
+xattr -d -r com.apple.quarantine ~/Library/QuickLook
+# others
 
 # Remove outdated versions from the cellar.
 brew cleanup
