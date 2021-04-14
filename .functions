@@ -170,7 +170,7 @@ function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
 
-
+# Quick look a file. This will open up the quick look for a specified file or folder.
 function ql () { 
 	qlmanage -p "$*" >& /dev/null; 
 }
